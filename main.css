@@ -25,6 +25,34 @@ header {
   align-items: center; /*center elements horizontally*/ 
   padding: 0 15px; /*first number is top and bottom = 0, second applies to right and left 20x*/ 
 }
+header h1 {
+ margin: 0; /*space around all sides 0*/
+}
+
+header nav ul {
+ display: flex; /*display horizoantal not vertical stack*/
+ list-style: none; /*list-style lets us set all list and style prop of
+ element in one dec, none means we are removing default markers that precede list items*/
+ margin: 0;
+ padding: 0;
+}
+
+header nav ul li { /*?*/
+ margin-left: 15px;
+}
+
+header nav ul li a { /*header that targets list li items nested inside of an
+ unordered list ul which is inside a navigation nav section*/
+ text-decoration: none;/*no underlines of links pls*/
+ color: #333;
+ font-weight: 500; /*eh whatever*/
+}
+
+header nav ul li a:hover { /*what happens when user is hovering mouse over link?
+ color changes to blue*/
+ color: #007bff;
+}
+
 
 
 
