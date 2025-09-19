@@ -25,7 +25,7 @@ header {
  display: flex; /*default would be block and stacked vertically, we want horizonatl*/
  justify-content: space-between; /* push h1 to left and nav links to right*/
  align-items: center; /*center elements horizontally*/
- padding: 0 15px; /*first number is top and bottom = 0, second applies to right and left 20x*/
+ padding: 0 15px; /*first number is top and bottom = 0, second applies to right and left 15px*/
  background: darkviolet;
 }
 
@@ -45,7 +45,7 @@ header nav ul {
 }
 
 
-header nav ul li { /*?*/
+header nav ul li { 
  margin-left: 15px;
 }
 
@@ -60,10 +60,10 @@ header nav ul li a { /*header that targets list li items nested inside of an
 
 main {
  background: #f0d3f7;
- padding: 15px; /*all 4 sides 20px between element and border*/ 
+ padding: 15px; /*all 4 sides 15px between element and border*/ 
  display: grid;
  grid-template-columns: repeat(4, 1fr); /* 4 even columns*/
- gap: 15px; /*20px gap horizonal and vertical around grid elements*/
+ gap: 15px; /*gap horizonal and vertical around grid elements*/
  align-content: start; 
 }
 
@@ -82,14 +82,14 @@ main {
 .store-item img {
  width: 100%;
  height: 160px;
- object-fit: cover; /*?*/
+ object-fit: cover; 
  border-radius: 7px;
  margin-bottom: 15px;
 }
 
 
 
-.store-item p:first-of-type { /*?*/
+.store-item p:first-of-type {
  font-weight: bold;
  font-size: 1em;
  color: black;
